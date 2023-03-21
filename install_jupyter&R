@@ -1,0 +1,27 @@
+# install Jupyter Lab
+
+conda install -c conda-forge jupyterlab
+
+# Update & Upgrade
+
+sudo apt-get update
+yes | sudo apt-get upgrade
+
+# Install R
+yes | sudo apt install r-base
+
+# Install R Kernel
+
+R
+
+# Set up R kernel for local R usage
+# Not run - simply for reference
+
+#install.packages("devtools")
+#devtools::install_github("IRkernel/IRkernel")
+#install.packages("IRkernel/IRkernel")
+#IRkernel::installspec(user  FALSE)
+=
+yes | sudo apt-get install libharfbuzz-dev libfribidi-dev
+
+sudo apt-get -y install r-cran-textshaping
